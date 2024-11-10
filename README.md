@@ -54,14 +54,12 @@ public class Main {
 Java Streams, introduced in Java 8, provide a powerful and efficient way to process collections of data. Streams allow for functional-style operations on sequences of elements.
 
 ```mermaid
-graph TD
+graph LR
     A[Collection] --> B[Stream]
-    B --> C[Filter]
-    B --> D[Map]
-    B --> E[Reduce]
-    C --> F[Filtered Data]
-    D --> G[Mapped Data]
-    E --> H[Reduced Data]
+    B --> C[Intermediate Operations]
+    C --> D[Filter/Map/Sort]
+    D --> E[Terminal Operations]
+    E --> F[Result]
 ```
 
 ### Key Concepts
