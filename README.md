@@ -297,10 +297,10 @@ Java Streams can be combined with file I/O operations for efficient file process
 
 ```mermaid
 graph TD
-    A[File] --> B[Files.lines()]
-    B --> C[Stream of Strings]
-    C --> D[Process Lines]
-    D --> E[Results]
+    A[File] --> B["Files.lines()"]
+    B --> C["Stream of Strings"]
+    C --> D["Process Lines"]
+    D --> E["Results"]
 ```
 
 ### Code Example: File Processing
