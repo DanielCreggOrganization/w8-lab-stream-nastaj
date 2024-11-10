@@ -22,8 +22,8 @@ In Java development, organizing your code into projects and packages is crucial 
 
 ```mermaid
 graph TD
-    A[Java Project] --> B[src folder]
-    A --> C[resources folder]
+    A[Java Project] --> B[src]
+    A --> C[resources]
     B --> D[packages]
     D --> E[classes]
     C --> F[data files]
