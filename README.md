@@ -2,26 +2,13 @@
 
 ## Table of Contents
 
-1. [Prerequisites](#prerequisites)
-2. [Project Setup](#project-setup)
-3. [Introduction to Java Streams](#introduction-to-java-streams)
-4. [Basic Stream Operations](#basic-stream-operations)
-5. [Method References](#method-references)
-6. [Advanced Stream Operations](#advanced-stream-operations)
-7. [Combining Streams with I/O](#combining-streams-with-io)
-8. [Best Practices and Common Pitfalls](#best-practices-and-common-pitfalls)
-
-## Prerequisites
-
-Before starting this lab, ensure you have:
-
-- Java Development Kit (JDK) 8 or higher installed
-- An Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse
-- Basic understanding of Java concepts:
-  - Classes and Objects
-  - Collections Framework
-  - Lambda Expressions
-  - Exception Handling
+1. [Project Setup](#project-setup)
+2. [Introduction to Java Streams](#introduction-to-java-streams)
+3. [Basic Stream Operations](#basic-stream-operations)
+4. [Method References](#method-references)
+5. [Advanced Stream Operations](#advanced-stream-operations)
+6. [Combining Streams with I/O](#combining-streams-with-io)
+7. [Best Practices and Common Pitfalls](#best-practices-and-common-pitfalls)
 
 ## Project Setup
 
