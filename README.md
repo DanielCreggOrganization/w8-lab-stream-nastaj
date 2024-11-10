@@ -32,11 +32,10 @@ graph TD
 
 ### DIY Task 1: Create Project Structure
 
-1. Create a new Java project named `StreamLab`
-2. Create a folder named `resources` in your project root
-3. Create a package named `com.example.streamlab`
-4. In this package, create a class named `Main`
-5. Add the following starter code:
+1. Create a folder named `resources`
+2. Create a package named `ie.atu.streamlab`
+3. In this package, create a class named `Main`
+4. Add the following starter code:
 
 ```java
 package com.example.streamlab;
