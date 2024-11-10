@@ -94,14 +94,6 @@ public class Main {
 3. Print the remaining numbers
 4. Expected output: 1, 3, 5, 7, 9
 
-```java
-// Your solution here
-List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-numbers.stream()
-       .filter(n -> n % 2 != 0)
-       .forEach(n -> System.out.println(n));
-```
-
 ## Basic Stream Operations
 
 ### Concept Introduction: Stream Operations Types
@@ -222,6 +214,15 @@ public class Main {
 3. Use method reference to double each number
 4. Print the results
 
+Expected output:
+```
+2
+4
+6
+8
+10
+```
+
 ## Advanced Stream Operations
 
 ### Concept Introduction: The Reduce Operation
@@ -233,8 +234,7 @@ The reduce operation combines elements of a stream into a single result. Think o
 
 ```mermaid
 graph LR
-    A[Stream of Numbers] --> B[Reduce]
-    B --> C[Single Result]
+    A[Stream of Numbers] --> B[Reduce] --> C[Single Result]
 ```
 
 ### Code Example: Simple Reduce Operations
@@ -291,21 +291,6 @@ Product: 3840
 Minimum value: 2
 ```
 
-Sample solution:
-```java
-List<Integer> numbers = Arrays.asList(2, 4, 6, 8, 10);
-
-// Calculate product
-int product = numbers.stream()
-                    .reduce(1, (a, b) -> a * b);
-System.out.println("Product: " + product);
-
-// Find minimum
-int min = numbers.stream()
-                 .reduce(Integer.MAX_VALUE, (a, b) -> Math.min(a, b));
-System.out.println("Minimum value: " + min);
-```
-
 ## Combining Streams with I/O
 
 ### Concept Introduction: File Processing with Streams
@@ -350,6 +335,12 @@ public class Main {
 3. Count the number of lines containing a specific word
 4. Calculate the average line length
 5. Print the results
+
+Expected output (example):
+```
+Lines containing "Java": 3
+Average line length: 42.5
+```
 
 ## Best Practices and Common Pitfalls
 
