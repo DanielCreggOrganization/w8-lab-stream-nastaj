@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-1. [Project Setup](#project-setup)
-2. [Introduction to Java Streams](#introduction-to-java-streams)
-3. [Basic Stream Operations](#basic-stream-operations)
-4. [Method References](#method-references)
-5. [Advanced Stream Operations](#advanced-stream-operations)
-6. [Combining Streams with I/O](#combining-streams-with-io)
-7. [Best Practices and Common Pitfalls](#best-practices-and-common-pitfalls)
+[1. Project Setup](#1-project-setup)  
+[2. Introduction to Java Streams](#2-introduction-to-java-streams)  
+[3. Basic Stream Operations](#3-basic-stream-operations)  
+[4. Method References](#4-method-references)  
+[5. Advanced Stream Operations](#5-advanced-stream-operations)  
+[6. Combining Streams with I/O](#6-combining-streams-with-io)  
+[7. Best Practices and Common Pitfalls](#7-best-practices-and-common-pitfalls)  
 
-## Project Setup
+## 1. Project Setup
 
 ### Concept Introduction: Java Project Structure
 
@@ -46,7 +46,7 @@ public class Main {
 }
 ```
 
-## Introduction to Java Streams
+## 2. Introduction to Java Streams
 
 ### Concept Introduction: Java Streams
 
@@ -91,7 +91,7 @@ public class Main {
 3. Print the remaining numbers
 4. Expected output: 1, 3, 5, 7, 9
 
-## Basic Stream Operations
+## 3. Basic Stream Operations
 
 ### Concept Introduction: Stream Operations Types
 
@@ -161,7 +161,7 @@ MANGO
 ORANGE
 ```
 
-## Method References
+## 4. Method References
 
 ### Concept Introduction: Method References
 
@@ -223,7 +223,7 @@ Expected output:
 10
 ```
 
-## Advanced Stream Operations
+## 5. Advanced Stream Operations
 
 ### Concept Introduction: The Reduce Operation
 
@@ -291,7 +291,7 @@ Product: 3840
 Minimum value: 2
 ```
 
-## Combining Streams with I/O
+## 6. Combining Streams with I/O
 
 ### Concept Introduction: File Processing with Streams
 
@@ -342,7 +342,7 @@ Lines containing "Java": 3
 Average line length: 42.5
 ```
 
-## Best Practices and Common Pitfalls
+## 7. Best Practices and Common Pitfalls
 
 ### Best Practices
 
