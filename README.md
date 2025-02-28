@@ -37,7 +37,7 @@ graph TD
 3. Add the following starter code:
 
 ```java
-package com.example.streamlab;
+package ie.atu.streamlab;
 
 public class Main {
     public static void main(String[] args) {
@@ -154,7 +154,10 @@ public class Main {
 
 Expected output:
 ```
+APPLE
 BANANA
+GRAPE
+MANGO
 ORANGE
 ```
 
