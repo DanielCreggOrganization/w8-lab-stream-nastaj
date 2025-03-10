@@ -330,7 +330,7 @@ public class Main {
 
 ### DIY Task 6: File Processing
 
-1. Create a text file named "input.txt" with multiple lines
+1. Create a file named "input.txt", with at least three lines of text, and place it inside the `resources` folder
 2. Read the file using Files.lines()
 3. Count the number of lines containing a specific word
 4. Calculate the average line length
