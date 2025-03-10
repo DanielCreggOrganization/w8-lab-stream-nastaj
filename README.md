@@ -45,6 +45,7 @@ public class Main {
     }
 }
 ```
+4. Create a new directory named `resources` at the root level of your project, beside the src folder, as indicated in the diagram above. We will use this folder later to store text file to be processed.   
 
 ## 2. Introduction to Java Streams
 
@@ -119,7 +120,7 @@ graph TD
     F --> I[Reduce]
 ```
 
-### Code Example: Multiple Operations
+### Code Example: Intermediate and Terminal Operations
 
 ```java
 import java.util.Arrays;
@@ -131,11 +132,10 @@ public class Main {
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
 
         List<String> filteredNames = names.stream()
-                                        .filter(name -> name.length() > 3)
-                                        .sorted()
-                                        .collect(Collectors.toList());
-
-        filteredNames.forEach(name -> System.out.println(name));
+                                        .filter(name -> name.length() > 3) // Intermediate
+                                        .sorted() // Intermediate
+                                        .collect(Collectors.toList()) // Intermediate
+                                        .forEach(name -> System.out.println(name)); // Terminal
     }
 }
 ```
@@ -212,7 +212,7 @@ public class Main {
    }
    ```
 3. Use method reference to double each number
-4. Print the results
+4. Print the results using a println Method Reference
 
 Expected output:
 ```
