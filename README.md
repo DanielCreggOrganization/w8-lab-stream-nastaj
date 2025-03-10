@@ -132,10 +132,12 @@ public class Main {
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
 
         List<String> filteredNames = names.stream()
-                                        .filter(name -> name.length() > 3) // Intermediate
-                                        .sorted() // Intermediate
-                                        .collect(Collectors.toList()) // Intermediate
-                                        .forEach(name -> System.out.println(name)); // Terminal
+                                    .filter(name -> name.length() > 3) // Intermediate
+                                    .sorted() // Intermediate
+                                    .collect(Collectors.toList()); // Terminal
+
+        // Now print the collected list
+        filteredNames.forEach(name -> System.out.println(name)); // Terminal
     }
 }
 ```
